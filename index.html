@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personality Quiz</title>
-    <link rel="icon" type="image/x-icon" href="/img/ideas.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href ="./css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Video Game Genre Fits You?</title>
+  <link rel="icon" type="image/x-icon" href="./img/ideas.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1 class="text-center mt-4">YOUR QUIZ TITLE HERE</h1>
-    
+  <main class="container py-4">
+    <h1 class="text-center mb-2">What Video Game Genre Fits You?</h1>
+    <p class="text-center mb-4">Pick one answer for each question to find your match.</p>
+
     <!-- Start quiz element -->
-    <div class="container d-flex justify-content-center" id="question-1">
-      <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3">YOUR QUIZ QUESTION HERE</h4>
-        <div class="row g-2">
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">ANSWER CHOICE A</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">ANSWER CHOICE B</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">ANSWER CHOICE C</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">ANSWER CHOICE D</button>
-          </div>
-        </div>
+    <div class="card my-3 p-4 question-block" data-question="1">
+      <h2 class="h5 mb-3">1. What sounds like the best way to spend an hour in a game?</h2>
+      <div class="row g-2">
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="survival">Gather supplies and build a safe place</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="shooter">Jump into a fast match</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="story">Follow a character's next chapter</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="open-world">Explore somewhere new</button></div>
       </div>
     </div>
 
-    
-    
+    <div class="card my-3 p-4 question-block" data-question="2">
+      <h2 class="h5 mb-3">2. Which challenge sounds most fun?</h2>
+      <div class="row g-2">
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="story">Making a choice that changes the plot</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="survival">Getting through the night with limited supplies</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="open-world">Finding a hidden place on a huge map</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="shooter">Improving your aim and reaction time</button></div>
+      </div>
+    </div>
+
+    <div class="card my-3 p-4 question-block" data-question="3">
+      <h2 class="h5 mb-3">3. What do you want a game to let you do?</h2>
+      <div class="row g-2">
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="open-world">Choose my own path</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="story">Get invested in the characters</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="shooter">Compete and improve each round</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="survival">Turn a rough start into a strong base</button></div>
+      </div>
+    </div>
+
+    <div class="card my-3 p-4 question-block" data-question="4">
+      <h2 class="h5 mb-3">4. Pick the moment you would remember most.</h2>
+      <div class="row g-2">
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="shooter">Winning a close match</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="open-world">Stumbling onto an amazing view</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="survival">Making it through a dangerous situation</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="story">Seeing a surprising ending</button></div>
+      </div>
+    </div>
+
+    <div class="card my-3 p-4 question-block" data-question="5">
+      <h2 class="h5 mb-3">5. How do you like to play?</h2>
+      <div class="row g-2">
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="survival">Plan ahead and make every resource count</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="story">Take my time and see where the story goes</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="shooter">Keep the action moving</button></div>
+        <div class="col-12 col-md-6"><button class="btn btn-outline-primary w-100 answer-btn" data-answer="open-world">Wander until something catches my eye</button></div>
+      </div>
+    </div>
     <!-- End quiz element -->
 
-    <!-- Add more quiz elements here -->
-
-
-
-    <div class="container d-flex justify-content-center">
+    <div class="text-center">
       <button id="show-result" class="btn btn-success my-4">Show Results</button>
-    </div>    
-    <!-- Output the result here -->
-    <div class="container d-flex justify-content-center">
-      <div id="result-container" class="card p-4 mb-4" style="width: 75%; display: none;">
-        <h3>Your Result:</h3>
-        <p id="result-text"></p>
-      </div>
     </div>
-    
-    <!-- Connect to your script file here -->
-     <script src = "./js/script.js"></script>
+
+    <div id="result-container" class="card p-4 mb-4" style="display: none;" aria-live="polite">
+      <h2 id="result-title" class="h4">Your Result:</h2>
+      <p id="result-text" class="mb-0"></p>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
 </body>
 </html>
