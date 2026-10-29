@@ -1,6 +1,27 @@
-.selected {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+body {
+  background-color: #f5f7fb;
+  color: #212529;
 }
-  
+
+main {
+  max-width: 900px;
+}
+
+.question-block {
+  border-color: #dee2e6;
+}
+
+.answer-btn {
+  min-height: 56px;
+  text-align: left;
+}
+
+.answer-btn.selected {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: white;
+}
+
+#result-container {
+  border-left: 5px solid #198754;
+}
